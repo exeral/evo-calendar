@@ -50,6 +50,11 @@ Then, before your closing ```<body>``` tag add:
 
 In your html file:
 ```html
+<head>
+  <!-- needed to ensure the CSS rules for responsive design work correctly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
 <div id="calendar"></div>
 ```
 
